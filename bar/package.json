@@ -1,0 +1,10 @@
+{
+    "name": "bar",
+    "version": "1.0.0",
+    "types": "index.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": ": # no-op"
+    },
+    "dependencies": {}
+}

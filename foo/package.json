@@ -1,0 +1,13 @@
+{
+    "name": "foo",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "scripts": {
+      "build": "tsc -b --verbose",
+      "test": "jest"
+    },
+    "dependencies": {
+      "bar": "*"
+    }
+  }
+  

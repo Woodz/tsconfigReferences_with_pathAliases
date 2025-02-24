@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "composite": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "declaration": true,
+        "paths": {
+            "@common/*": ["./src/common/*"]
+        }
+    }
+}

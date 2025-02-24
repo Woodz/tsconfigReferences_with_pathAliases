@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "exclude": [
+      "node_modules",
+      "./**/dist",
+      "**/*.js"
+    ],
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": false,
+      "declaration": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    }
+  }

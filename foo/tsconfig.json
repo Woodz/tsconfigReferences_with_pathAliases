@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "paths": {
+      "bar/*": ["../../bar/src/*"],
+      "@common/*": ["./common/*"]
+    }
+  },
+  "references": [{
+    "path": "../bar"
+  }]
+}
